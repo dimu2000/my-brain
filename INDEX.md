@@ -25,3 +25,5 @@ _Empty. Feed your first source and the feeder adds lines here._
 
 ## content-catalog
 _Empty. Add a row per platform once you start cataloguing what you publish._
+- [project] CeeVeeGlobal.com — tutorial blog on AdSense + affiliates, now also the CVG Web Factory web-design service | visibility: agents-only | projects/ceeveeglobal.md
+- [project] AIBuiltTools.com — EDD digital store + metered AI-tool platform on a points economy, built but still in coming-soon mode | visibility: agents-only | projects/aibuilttools.md
