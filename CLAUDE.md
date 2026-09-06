@@ -164,7 +164,7 @@ taxonomy of 60 tags retrieves worse than one of 20.
 `ai-agents, llm-engineering, rag, prompt-engineering, python, automation,
 self-hosting, security, saas, build-in-public, content-creation, youtube,
 seo, teaching, engineering-thinking, open-source, tools, entrepreneurship,
-audience-growth`
+audience-growth, wordpress`
 
 ## 8. Blocked scripts (optional)
 
