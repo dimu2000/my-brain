@@ -46,3 +46,7 @@ _Empty. Add a row per platform once you start cataloguing what you publish._
 - [story] Why the CeeVeeGlobal rebuild started — years of snippets, an unused point system and a very slow site | status: current | visibility: agents-only | knowledge/stories/story-2026-09-ceeveeglobal-rebuild-origin.md
 - [fact] The 6-step setup that gives Claude Code live access to CeeVeeGlobal — SSH, CLAUDE.md, MCP server, audit, staged changes | status: current | visibility: agents-only | knowledge/facts/fact-2026-09-cvg-claude-code-setup.md
 - [take] Code goes through staging; content goes straight to live — split the workflow by risk, not convenience | status: current | visibility: agents-only | knowledge/takes/take-2026-09-code-staging-content-live.md
+- [take] Not a guru — a peer who's slightly ahead, never preaching from a mountaintop | status: current | visibility: agents-only | knowledge/takes/take-2026-09-not-a-guru-peer-slightly-ahead.md
+- [take] Teach what I test — content has to be buildable, not just understandable | status: current | visibility: agents-only | knowledge/takes/take-2026-09-teach-what-i-test.md
+- [fact] My default content framework and style traits — Intro → Steps → Advanced Tips → Wrap-up | status: current | visibility: agents-only | knowledge/facts/fact-2026-09-cvg-content-framework-and-style-traits.md
+- [fact] Who I write for: beginners becoming builders — overwhelmed by tools, need a clear starting point | status: current | visibility: agents-only | knowledge/facts/fact-2026-09-audience-beginner-to-builder.md
