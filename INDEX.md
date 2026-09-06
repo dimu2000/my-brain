@@ -25,10 +25,15 @@ _Empty. Feed your first source and the feeder adds lines here._
 
 ## content-catalog
 _Empty. Add a row per platform once you start cataloguing what you publish._
-- [project] CeeVeeGlobal.com — tutorial blog on AdSense + affiliates, now also the CVG Web Factory web-design service | visibility: agents-only | projects/ceeveeglobal.md
+- [project] CeeVeeGlobal (CVG) — WordPress tutorial site plus the scripted pipeline that writes it, and now an AI-built-websites offer | visibility: agents-only | projects/ceeveeglobal.md
 - [project] AIBuiltTools.com — EDD digital store + metered AI-tool platform on a points economy, built but still in coming-soon mode | visibility: agents-only | projects/aibuilttools.md
 - [project] ABT (AIBuiltTools) — 17 AI tools for WordPress owners, paid for in points instead of cash | visibility: agents-only | projects/abt.md
 - [lesson] Local tests passing meant nothing until every tool was re-run through the real path — three bugs that only existed on admin-ajax.php | status: current | visibility: agents-only | knowledge/lessons/lesson-2026-07-abt-real-path-testing.md
 - [lesson] A secret-redaction regex that fails open — WordPress magic quotes broke it silently and nearly sent a real DB_PASSWORD to the LLM | status: current | visibility: agents-only | knowledge/lessons/lesson-2026-07-secret-redaction-magic-quotes.md
 - [lesson] "Pushed to git" is not "deployed" — 11 tools shipped nothing because Coolify pulls a prebuilt image, never builds from git | status: current | visibility: agents-only | knowledge/lessons/lesson-2026-07-deployed-not-deployed-coolify.md
 - [lesson] The installed version's source is the spec — reading EDD's order builder first turned a production bug into a one-line precaution | status: current | visibility: agents-only | knowledge/lessons/lesson-2026-07-read-the-installed-source.md
+- [lesson] A backup plugin can look configured and still never prune — `updraft_delete_local=0` silently voids retention; 93 GB of backups for a 717 MB site | status: current | visibility: agents-only | knowledge/lessons/lesson-2026-09-updraft-local-delete-pruning.md
+- [lesson] Moving hosts is how you find out which jobs stopped running — a Windows Task Scheduler trigger left an auto-publishing pipeline silently dead | status: current | visibility: agents-only | knowledge/lessons/lesson-2026-08-host-bound-triggers-die-silently.md
+- [lesson] Two silent WPCode traps — a leading `<?php` kills the eval, and `frontend_cl` doesn't load on admin-ajax | status: current | visibility: agents-only | knowledge/lessons/lesson-2026-08-wpcode-snippet-gotchas.md
+- [fact] No script in the pipeline calls an image-generation API — prompt + filename out, hand-dropped image in, one `image-gallery/<batch>/` convention | status: current | visibility: agents-only | knowledge/facts/fact-2026-07-no-image-generation-apis.md
+- [raw] CVG build log — five dated entries: disk rescue, Web Factory launch, Optiplex migration, image-gen ban, Pinterest pipeline | visibility: agents-only | raw/doc-2026-09-cvg-infra-journal.md
