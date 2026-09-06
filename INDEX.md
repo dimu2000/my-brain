@@ -25,7 +25,7 @@ _Empty. Feed your first source and the feeder adds lines here._
 
 ## content-catalog
 _Empty. Add a row per platform once you start cataloguing what you publish._
-- [project] CeeVeeGlobal (CVG) — WordPress tutorial site plus the scripted pipeline that writes it, and now an AI-built-websites offer | visibility: agents-only | projects/ceeveeglobal.md
+- [project] CeeVeeGlobal — WordPress solutions, tutorials and AI tools; mid-rebuild with Claude Code as the developer | last-verified: 2026-09-03 | visibility: agents-only | projects/ceeveeglobal.md
 - [project] AIBuiltTools.com — EDD digital store + metered AI-tool platform on a points economy, built but still in coming-soon mode | visibility: agents-only | projects/aibuilttools.md
 - [project] ABT (AIBuiltTools) — 17 AI tools for WordPress owners, paid for in points instead of cash | visibility: agents-only | projects/abt.md
 - [lesson] Local tests passing meant nothing until every tool was re-run through the real path — three bugs that only existed on admin-ajax.php | status: current | visibility: agents-only | knowledge/lessons/lesson-2026-07-abt-real-path-testing.md
@@ -42,3 +42,7 @@ _Empty. Add a row per platform once you start cataloguing what you publish._
 - [take] One job per script, one thing per plugin — no monolithic scripts | status: current | visibility: agents-only | knowledge/takes/take-2026-09-modular-scripts-no-monoliths.md
 - [lesson] Killing staging didn't remove the review gate — it moved into the dashboard Review Queue | status: current | visibility: agents-only | knowledge/lessons/lesson-2026-09-review-queue-replaced-staging.md
 - [fact] The CVG project runs from an Ubuntu Optiplex home server, not a laptop | status: current | visibility: agents-only | knowledge/facts/fact-2026-09-project-runs-on-optiplex-home-server.md
+- [take] Use Claude as an actual developer, not a chatbot — give it the files, the database and the error log | status: current | visibility: agents-only | knowledge/takes/take-2026-09-claude-as-developer-not-chatbot.md
+- [story] Why the CeeVeeGlobal rebuild started — years of snippets, an unused point system and a very slow site | status: current | visibility: agents-only | knowledge/stories/story-2026-09-ceeveeglobal-rebuild-origin.md
+- [fact] The 6-step setup that gives Claude Code live access to CeeVeeGlobal — SSH, CLAUDE.md, MCP server, audit, staged changes | status: current | visibility: agents-only | knowledge/facts/fact-2026-09-cvg-claude-code-setup.md
+- [take] Code goes through staging; content goes straight to live — split the workflow by risk, not convenience | status: current | visibility: agents-only | knowledge/takes/take-2026-09-code-staging-content-live.md
