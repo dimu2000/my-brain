@@ -37,3 +37,8 @@ _Empty. Add a row per platform once you start cataloguing what you publish._
 - [lesson] Two silent WPCode traps — a leading `<?php` kills the eval, and `frontend_cl` doesn't load on admin-ajax | status: current | visibility: agents-only | knowledge/lessons/lesson-2026-08-wpcode-snippet-gotchas.md
 - [fact] No script in the pipeline calls an image-generation API — prompt + filename out, hand-dropped image in, one `image-gallery/<batch>/` convention | status: current | visibility: agents-only | knowledge/facts/fact-2026-07-no-image-generation-apis.md
 - [raw] CVG build log — five dated entries: disk rescue, Web Factory launch, Optiplex migration, image-gen ban, Pinterest pipeline | visibility: agents-only | raw/doc-2026-09-cvg-infra-journal.md
+- [project] CVG Project — two WordPress sites (tutorial blog + product store) and one content machine | visibility: agents-only | projects/cvg.md
+- [take] No script may call an image-generation API — scripts write the prompt and wait for a hand-made image | status: current | visibility: agents-only | knowledge/takes/take-2026-09-no-image-generation-api-in-scripts.md
+- [take] One job per script, one thing per plugin — no monolithic scripts | status: current | visibility: agents-only | knowledge/takes/take-2026-09-modular-scripts-no-monoliths.md
+- [lesson] Killing staging didn't remove the review gate — it moved into the dashboard Review Queue | status: current | visibility: agents-only | knowledge/lessons/lesson-2026-09-review-queue-replaced-staging.md
+- [fact] The CVG project runs from an Ubuntu Optiplex home server, not a laptop | status: current | visibility: agents-only | knowledge/facts/fact-2026-09-project-runs-on-optiplex-home-server.md
