@@ -6,8 +6,8 @@ projects: [cvg]
 source: repo-2026-09-cvg-project-contract
 source_url: null
 date: 2026-09
-status: current
-superseded_by: null
+status: superseded
+superseded_by: lesson-2026-09-no-ungated-publish-path
 visibility: agents-only
 ---
 

@@ -3,7 +3,7 @@ id: project-cvg
 kind: project
 topics: [content-creation, automation, self-hosting, seo]
 visibility: agents-only
-last-verified: 2026-09-06
+last-verified: 2026-09-22
 links:
   site: https://ceeveeglobal.com
   store: https://aibuilttools.com
@@ -38,7 +38,7 @@ Idea Pool (keywords + personal-journey work)
   → Repurpose → video / shorts / social
 ```
 
-A separate Error Library pipeline runs daily on a timer and auto-publishes without a review gate.
+A separate Error Library pipeline runs daily on a timer and creates WordPress drafts; publishing is manual in wp-admin (auto-publish retired 2026-09-20).
 A Pinterest pin pipeline generates 3–4 pin briefs per published post, writes them to a shared
 `image-gallery/<batch>/` convention, and a watcher uploads each hand-made image to object storage
 and queues a `pins_queue` document for a not-yet-built n8n publishing workflow.
@@ -47,7 +47,7 @@ deliberately deferred.)
 
 ## Decisions & constraints
 Ten Golden Rules govern the build. The load-bearing ones:
-- No script ever calls an image-generation API — see [[take-2026-09-no-image-generation-api-in-scripts]].
+- Scripts don't call an image-generation API, for now — see [[take-2026-09-image-apis-not-for-now]].
 - Modular, reusable code only; no monolithic scripts — see [[take-2026-09-modular-scripts-no-monoliths]].
 - Content reaches live only through the Review Queue; site/code changes on live need an explicit
   go-ahead — see [[lesson-2026-09-review-queue-replaced-staging]].
