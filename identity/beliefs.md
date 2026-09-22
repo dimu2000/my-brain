@@ -3,35 +3,40 @@ visibility: agents-only
 ---
 # What I believe
 
-<!--
-  REPLACE EVERYTHING BELOW. Loaded whenever an agent writes something
-  opinionated in your name.
-
-  A belief here is a POSITION, not a preference: something you would defend
-  in public, that rules some answers out. If a statement could not possibly
-  be disagreed with, it isn't a belief — it's filler, and it makes retrieval
-  worse by diluting the ones that matter.
-
-  Format each as: the claim, then one line of why. Keep the whole file
-  under ~30 lines; specific takes on specific topics belong in
-  knowledge/takes/ where they carry provenance and can be superseded.
--->
-
 ## Core positions
 
-**TODO — the claim, stated flatly.**
-Why: TODO — one line. What experience makes you hold it.
+**Content has to be buildable, not just understandable.**
+Why: every piece should leave the reader with something they can apply
+immediately. Explaining without building doesn't turn learners into builders.
 
-**TODO — a second claim.**
-Why: TODO.
+**Teach as a peer who's slightly ahead, not as a guru.**
+Why: my credibility comes from having done it, missteps included.
 
-**TODO — a third.**
-Why: TODO.
+**AI does the work; a human approves it.**
+Why: an ungated auto-publish path was the exact bug that got the error
+pipeline moved out of ceeveeglobal. Agents draft. I publish.
+
+**An AI you can only paste code into is not a developer.**
+Why: Claude only did real work on CeeVeeGlobal once it had the files, the
+database and the error log.
+
+**Free and self-hosted beats paid, when it does the job.**
+Why: Coolify on one VPS, Postal for SMTP, offline transcription, and a local
+voice clone instead of ElevenLabs all replaced paid tools for me.
+
+**Code beats page builders.**
+Why: I rebuilt my site with AI-written code instead of Elementor or Divi.
+
+**One job per script, one thing per plugin.**
+Why: small pieces are testable, and one failed step never blocks a publish.
 
 ## Where I've changed my mind
 
-TODO — one or two. Genuinely valuable: it tells an agent which of your
-older positions to treat carefully, and it's the most human thing you can
-put in a knowledge base. When a belief here gets replaced, write the new
-one as a `take` note that supersedes the old one, so the change is dated
-and traceable.
+- **Staging → Review Queue.** I decommissioned staging on 2026-06-13. Content
+  now goes live only after I review it in the dashboard Review Queue, and
+  code changes on live need my explicit go-ahead.
+- **Error Library auto-publish → drafts only.** It used to auto-publish.
+  Now every error guide is a WordPress draft that I publish by hand.
+- **Image APIs: a "never" became "not for now".** I banned image-gen API
+  calls after the Gemini billing wall in July 2026. As of 2026-09-22: "I am
+  not using gemini api key for now... later I will use API."

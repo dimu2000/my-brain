@@ -10,9 +10,9 @@ The feeder maintains this file; a serving layer regenerates a tier-filtered
 version of it per consumer, so what you see here is the full private view.
 
 ## identity
-- `identity-core` — who I am, what I'm working toward [current] [agents-only]
-- `identity-beliefs` — cross-cutting positions [current] [agents-only]
-- `identity-voice` — how I write; agent instruction manual [current] [agents-only]
+- `identity-core` — Dimu Harshana: self-taught tech educator turning learners into builders; CVG, ABT, AI-as-developer; AI works, I approve [current] [agents-only]
+- `identity-beliefs` — buildable content, peer not guru, human approval gate, free/self-hosted over paid, code over page builders; 3 changes of mind [current] [agents-only]
+- `identity-voice` — short declarative peer voice, real title/sentence examples, Intro → Steps → Advanced Tips → Wrap-up, per-platform (blog/video/shorts/social) [current] [agents-only]
 
 ## projects
 - `project-example-project` — delete me; a sample card so a fresh clone indexes [current] [public]
