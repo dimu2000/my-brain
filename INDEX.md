@@ -53,3 +53,7 @@ _Empty. Add a row per platform once you start cataloguing what you publish._
 - [take] Image-generation APIs: "not for now", not never — scripts still write the prompt and wait, until Dimu says to switch | status: current | visibility: agents-only | knowledge/takes/take-2026-09-image-apis-not-for-now.md
 - [lesson] No ungated publish path — the Error Library now creates WordPress drafts only; auto-publish retired 2026-09-20 | status: current | visibility: agents-only | knowledge/lessons/lesson-2026-09-no-ungated-publish-path.md
 - [raw] Content-machine contract (CLAUDE.md) — approval iron rule, blog → video → social, error-pipeline routing, no-image-API-for-now | visibility: agents-only | raw/repo-2026-09-content-machine-contract.md
+- [fact] You cannot close a published Docker port with ufw — measured 302 three ways on Coolify 4.3.23 | status: current | visibility: public | knowledge/facts/fact-2026-09-docker-publishes-past-ufw.md
+- [fact] "Whole stack on one $4 VPS" does not hold — two boxes, ~$15/mo against $125 | status: current | visibility: public | knowledge/facts/fact-2026-09-self-hosting-two-box-split.md
+- [lesson] An image generator prints your own emphasis words onto the prop — describe appearance, negatives at the end | status: current | visibility: agents-only | knowledge/lessons/lesson-2026-09-generators-print-your-emphasis-words.md
+- [raw] Content-machine working repo — the video-06 build: ufw/Docker measurement, VPS sizing, image-generation failures | visibility: agents-only | raw/repo-2026-09-content-machine.md
