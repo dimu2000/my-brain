@@ -19,7 +19,6 @@ version of it per consumer, so what you see here is the full private view.
 - [project] CeeVeeGlobal — WordPress solutions, tutorials and AI tools; mid-rebuild with Claude Code as the developer | last-verified: 2026-09-03 | visibility: agents-only | projects/ceeveeglobal.md
 - [project] AIBuiltTools.com — EDD digital store + metered AI-tool platform on a points economy, built but still in coming-soon mode | last-verified: 2026-09-06 | visibility: agents-only | projects/aibuilttools.md
 - [project] ABT (AIBuiltTools) — 17 AI tools for WordPress owners, paid for in points instead of cash | last-verified: 2026-09-06 | visibility: agents-only | projects/abt.md
-- [project] Example project — template sample, safe to delete | last-verified: 2026-01-01 | visibility: public | projects/example-project.md
 
 ## knowledge
 
