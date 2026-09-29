@@ -61,6 +61,8 @@ version of it per consumer, so what you see here is the full private view.
 
 ## content-catalog
 - [catalog] YouTube (CeeVee Global) — 77 published videos, 2022-01 → 2026-08, with ids for `source:` | visibility: public | content-catalog/youtube.md
+- [catalog] WordPress (ceeveeglobal.com) — 24 published blog posts, pulled live via WP REST API 2026-09-29 | visibility: public | content-catalog/ceeveeglobal.md
+- [catalog] WordPress (aibuilttools.com) — 1 published post (store still coming-soon), pulled live via WP REST API 2026-09-29 | visibility: public | content-catalog/aibuilttools.md
 
 ## raw
 - [raw] CVG project contract (CLAUDE.md) — owner/stack summary, per-site tables, the 10 Golden Rules, dashboard and pin pipelines | visibility: agents-only | raw/repo-2026-09-cvg-project-contract.md
