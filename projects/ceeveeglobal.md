@@ -3,7 +3,7 @@ id: project-ceeveeglobal
 kind: project
 topics: [wordpress, automation, self-hosting, content-creation]
 visibility: agents-only
-last-verified: 2026-09-03
+last-verified: 2026-09-29
 links:
   site: https://ceeveeglobal.com
 ---
@@ -36,8 +36,11 @@ Claude Code + VS Code over Remote SSH.
 `.claude/mcp.json`.)
 
 ## Decisions & constraints
-- Site changes: staging first → auto-test → auto-push to live. Blog posts go
-  straight to live via the WP REST API.
+- Staging was decommissioned 2026-06-13. Content publishes straight to live via
+  the WP REST API, gated by human review in the Dashboard Review Queue. Site/code
+  changes also go directly on live, gated by Dimu's explicit go-ahead per change
+  instead of an automated staging test — see
+  [[take-2026-09-code-vs-content-risk-split]].
 - The point system is removed entirely — code and database.
 - Proper plugin structure over PHP snippets; snippets running on every page
   were the main speed problem.
@@ -50,4 +53,4 @@ Claude Code + VS Code over Remote SSH.
 - Related notes: `take-2026-09-claude-as-developer-not-chatbot`,
   `story-2026-09-ceeveeglobal-rebuild-origin`,
   `fact-2026-09-cvg-claude-code-setup`,
-  `take-2026-09-code-staging-content-live`
+  `take-2026-09-code-vs-content-risk-split`

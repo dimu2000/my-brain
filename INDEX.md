@@ -28,7 +28,8 @@ version of it per consumer, so what you see here is the full private view.
 - [take] Use Claude as an actual developer, not a chatbot — give it the files, the database and the error log | status: current | visibility: agents-only | knowledge/takes/take-2026-09-claude-as-developer-not-chatbot.md
 - [take] One job per script, one thing per plugin — no monolithic scripts | status: current | visibility: agents-only | knowledge/takes/take-2026-09-modular-scripts-no-monoliths.md
 - [take] Image-generation APIs: "not for now", not never — scripts still write the prompt and wait, until Dimu says to switch | status: current | visibility: agents-only | knowledge/takes/take-2026-09-image-apis-not-for-now.md
-- [take] Code goes through staging; content goes straight to live — split the workflow by risk, not convenience | status: current | visibility: agents-only | knowledge/takes/take-2026-09-code-staging-content-live.md
+- [take] Code and content still split by risk, but staging is gone — content gated by Review Queue, code by Dimu's go-ahead per change | status: current | visibility: agents-only | knowledge/takes/take-2026-09-code-vs-content-risk-split.md
+- [take] Code goes through staging; content goes straight to live — split the workflow by risk, not convenience | status: superseded | visibility: agents-only | knowledge/takes/take-2026-09-code-staging-content-live.md
 - [take] No script may call an image-generation API — scripts write the prompt and wait for a hand-made image | status: superseded | visibility: agents-only | knowledge/takes/take-2026-09-no-image-generation-api-in-scripts.md
 
 ### stories

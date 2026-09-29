@@ -6,8 +6,8 @@ projects: [ceeveeglobal]
 source: doc-2026-09-cvg-origin-story
 source_url: null
 date: 2026-09
-status: current
-superseded_by: null
+status: superseded
+superseded_by: take-2026-09-code-vs-content-risk-split
 visibility: agents-only
 ---
 # Code goes through staging; content goes straight to live

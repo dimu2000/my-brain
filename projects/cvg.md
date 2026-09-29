@@ -50,7 +50,7 @@ Ten Golden Rules govern the build. The load-bearing ones:
 - Scripts don't call an image-generation API, for now — see [[take-2026-09-image-apis-not-for-now]].
 - Modular, reusable code only; no monolithic scripts — see [[take-2026-09-modular-scripts-no-monoliths]].
 - Content reaches live only through the Review Queue; site/code changes on live need an explicit
-  go-ahead — see [[lesson-2026-09-review-queue-replaced-staging]].
+  go-ahead — see [[take-2026-09-code-vs-content-risk-split]] and [[lesson-2026-09-no-ungated-publish-path]].
 - No hardcoded credentials, and no secrets in any tracked file — real values live only in `.env`,
   docs use placeholders.
 - Every completed task is logged to JOURNEY.md in enough detail to become a post or video, and

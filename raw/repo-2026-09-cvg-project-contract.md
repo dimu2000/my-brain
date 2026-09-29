@@ -25,8 +25,9 @@ is deliberately excluded from the mind. The *about*-layer was distilled into the
 file itself stays in the project repo, which is the system of record and changes with the build.
 
 ## Distilled into
-- [[take-2026-09-no-image-generation-api-in-scripts]]
+- [[take-2026-09-no-image-generation-api-in-scripts]] (superseded)
 - [[take-2026-09-modular-scripts-no-monoliths]]
-- [[lesson-2026-09-review-queue-replaced-staging]]
+- [[lesson-2026-09-review-queue-replaced-staging]] (superseded)
 - [[fact-2026-09-project-runs-on-optiplex-home-server]]
 - [[project-cvg]]
+- [[take-2026-09-code-vs-content-risk-split]] — re-read 2026-09-29, Golden Rules 1 and 7
